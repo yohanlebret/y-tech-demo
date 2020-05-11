@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.a1a8997e.chunk.js",
-    "main.js.map": "/static/js/main.a1a8997e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5b6c2d2e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5b6c2d2e.js.map",
-    "static/js/2.4bfb10c7.chunk.js": "/static/js/2.4bfb10c7.chunk.js",
-    "static/js/2.4bfb10c7.chunk.js.map": "/static/js/2.4bfb10c7.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a9148f8c4a5070fc98cd2f1b4bb6243c.js": "/precache-manifest.a9148f8c4a5070fc98cd2f1b4bb6243c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.4bfb10c7.chunk.js.LICENSE.txt": "/static/js/2.4bfb10c7.chunk.js.LICENSE.txt"
+    "main.js": "/y-tech-demo/static/js/main.f083a4cc.chunk.js",
+    "main.js.map": "/y-tech-demo/static/js/main.f083a4cc.chunk.js.map",
+    "runtime-main.js": "/y-tech-demo/static/js/runtime-main.f544d36b.js",
+    "runtime-main.js.map": "/y-tech-demo/static/js/runtime-main.f544d36b.js.map",
+    "static/js/2.4bfb10c7.chunk.js": "/y-tech-demo/static/js/2.4bfb10c7.chunk.js",
+    "static/js/2.4bfb10c7.chunk.js.map": "/y-tech-demo/static/js/2.4bfb10c7.chunk.js.map",
+    "index.html": "/y-tech-demo/index.html",
+    "precache-manifest.7aa73abc05950faf1409e48728787b28.js": "/y-tech-demo/precache-manifest.7aa73abc05950faf1409e48728787b28.js",
+    "service-worker.js": "/y-tech-demo/service-worker.js",
+    "static/js/2.4bfb10c7.chunk.js.LICENSE.txt": "/y-tech-demo/static/js/2.4bfb10c7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b6c2d2e.js",
+    "static/js/runtime-main.f544d36b.js",
     "static/js/2.4bfb10c7.chunk.js",
-    "static/js/main.a1a8997e.chunk.js"
+    "static/js/main.f083a4cc.chunk.js"
   ]
 }
