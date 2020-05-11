@@ -2,6 +2,7 @@
   "name": "yoello-tech-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yohanlebret.github.io/y-tech-demo/",
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -23,7 +24,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,6 +47,7 @@
     "customize-cra": "^0.9.1",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-airbnb-base": "^14.1.0",
+    "gh-pages": "^2.2.0",
     "less": "^3.11.1",
     "less-loader": "^6.1.0",
     "react-app-rewire-less": "^2.1.3",
