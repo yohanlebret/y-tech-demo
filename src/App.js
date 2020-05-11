@@ -1,25 +1,55 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import { Layout } from 'antd';
+import { Tabs, Icon } from 'antd-mobile';
+import { CoffeeOutlined } from '@ant-design/icons';
+
+import { GridItems, ShoppingCart } from './Components';
+
+import './App.less';
+
+
+const { Header, Content } = Layout;
+
+const mainTabs = [
+  { title: <CoffeeOutlined /> },
+  { title: <Icon type="search" /> },
+];
+
+const beersTabs = [
+  { title: 'All', sub: '1' },
+  { title: 'Pizza', sub: '2' },
+  { title: 'Steak', sub: '3' },
+];
+
+// main app with tabs and ShoppingCart
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Layout>
+      <Header>Demo App</Header>
+      <Content>
+        <Tabs
+          tabs={mainTabs}
+          initialPage={0}
+          swipeable={false}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <div className="content-beer">
+            <Tabs
+              tabs={beersTabs}
+              initialPage={0}
+            >
+              <GridItems />
+              <GridItems foodType="pizza" />
+              <GridItems foodType="steak" />
+            </Tabs>
+          </div>
+          <div>
+            Work In Progress
+          </div>
+        </Tabs>
+      </Content>
+      <ShoppingCart />
+    </Layout>
   );
 }
 
